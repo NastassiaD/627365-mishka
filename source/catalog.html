@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+  <body>
+
+    <header class="header header--catalog">
+      <nav class="header-nav">
+        <button class="header-nav__toggle" type="button">Открыть меню</button>
+        <div class="header-nav__wrapper">
+          <a class="main-logo" href="#"><img class="main-logo__image main-logo__image-mobile" src="http://placehold.it/150x100" width="86" height="35" alt="Интернет-магазин Мишка"></a>
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a href="#">Каталог товаров</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#">Вязание на заказ</a>
+            </li>
+          </ul>
+          <div class="site-search">
+            <img class="site-search__icon" src="http://placehold.it/150x100">
+            <form class="site-search__form">
+              <input class="site-search__field" type="search" name="search" placeholder="Поиск по сайту">
+            </form>
+          </div>
+          <div class="basket-button">
+            <img class="basket-button__icon" src="http://placehold.it/150x100">
+            <a class="basket-button__link" href="#">Корзина: пока пуста</a>
+          </div>
+        </div>
+      </nav>
+      <p class="header__tagline header__tagline--catalog">Каталог товаров</p>
+    </header>
+
+    <main class="page-main">
+      <section class="catalog-container">
+        <div class="catalog-item">
+          <img src="http://placehold.it/150x100" class="catalog-item__photo">
+          <p class="catalog-item__name">Зайчик-попрыгайчик</p>
+          <p class="catalog-item__description">Рост 30 см, вес 200 г</p>
+          <div class="catalog-item__button">
+            <p class="catalog-item__cost">1200 руб.</p>
+            <button class="button-cart"><img src="http://placehold.it/150x100"></button>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <img src="http://placehold.it/150x100" class="catalog-item__photo">
+          <p class="catalog-item__name">Корзинка для белья</p>
+          <p class="catalog-item__description">Диаметр 15 см, высота 10 см</p>
+          <div class="catalog-item__button">
+            <p class="catalog-item__cost">690 руб.</p>
+            <button class="button-cart"><img src="http://placehold.it/150x100"></button>
+          </div>
+        </div>
+        <div class="catalog-item">
+          <img src="http://placehold.it/150x100" class="catalog-item__photo">
+          <p class="catalog-item__name">Большая корзинка для игрушек</p>
+          <p class="catalog-item__description">Диаметр 30 см, высота 30 см</p>
+          <div class="catalog-item__button">
+            <p class="catalog-item__cost">1500 руб.</p>
+            <button class="button-cart"><img src="http://placehold.it/150x100"></button>
+          </div>
+        </div>
+      </section>
+      <section class="prodaction-process">
+        <div class="prodaction-process__header">
+          <img class="prodaction-process__icon" src="http://placehold.it/150x100">
+          <p class="prodaction-process__title">Процесс производства</p>
+        </div>
+        <div class="prodaction-process__video">
+          <img src="http://placehold.it/150x100" class="prodaction-process__video-play-button">
+          <video src="#" poster="http://placehold.it/150x100" controls></video>
+        </div>
+        <div class="prodaction-process__text">
+          <p class="prodaction-process__description">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
+          <button class="main-button button-send" type="submit">Сделать заказ</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__social">
+        <a href="#" class="footer__social-item footer__social-item--insta"><img src="http://placehold.it/150x100"></a>
+        <a href="#" class="footer__social-item footer__social-item--fb"><img src="http://placehold.it/150x100"></a>
+        <a href="#" class="footer__social-item footer__social-item--tw"><img src="http://placehold.it/150x100"></a>
+      </div>
+      <div class="footer__developer">
+        <p class="footer__developer-text">Разработано</p>
+        <a href="https://htmlacademy.ru/intensive/adaptive" target="blank" class="footer__developer-link"><img class="footer__developer-logo" src="img/htmlacademy.svg" width="27" height="34"></a>
+      </div>
+    </footer>
+
+  </body>
+</html>
