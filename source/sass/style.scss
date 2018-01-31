@@ -1,1 +1,11 @@
-body { background: blue; }
+@import "_vars";
+@import "_mixins";
+@import "_index/_header", "_index/_header-nav", "_index/_site-search", "_index/_basket-button", "_index/_main-categories";
+@import "_index/_page-main", "_index/_week-product", "_index/_about-shop", "_index/_header", "_index/_reviews", "_index/_contacts";
+@import "_index/_footer", "_index/_social", "_index/_copyright";
+
+body {
+  background: #FFFFFF;
+  font-family: 'opensans', sans-serif;
+  margin: 0;
+}
