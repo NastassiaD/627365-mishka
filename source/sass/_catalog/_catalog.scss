@@ -1,0 +1,40 @@
+.catalog {
+  padding: 30px 30px 0px 30px;
+}
+
+.catalog__item {
+  margin-bottom: 30px;
+}
+
+.catalog__item-info {
+  padding: 24px 26px 0;
+  border: 1px solid #ececec;
+}
+
+.catalog__item-name {
+  color: $black;
+  font-family: 'opensans', sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.catalog__item-description {
+  color: #444444;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.catalog__item-buy {
+  margin-bottom: 0;
+  border-top: 1px solid #f1f1f1;
+  padding: 20px 0 27px;
+}
+
+.catalog__price {
+  color: $black;
+  font-family: 'opensans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+}

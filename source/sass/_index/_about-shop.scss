@@ -1,0 +1,28 @@
+.about-shop {
+  color: $black;
+  padding: 35px 30px 41px 30px;
+}
+
+.about-shop__title {
+
+}
+
+.about-shop__list {
+  margin-top: 36px;
+}
+
+.about-shop__item {
+  font-family: 'opensansbold', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  margin-bottom: 34px;
+}
+
+.about-shop__item--giftwrap {
+  margin-bottom: 0;
+}
+
+.about-shop__icon {
+  color: $accent;
+}

@@ -1,0 +1,23 @@
+.main-categories__link {
+  color: $white;
+  text-decoration: none;
+  font-family: 'opensans', sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 24px;
+  padding: 30px 185px 35px 30px;
+}
+
+.main-categories__category {
+  position: relative;
+  display: inline-flex;
+  width: 80%;
+}
+
+.main-categories__category--interior {
+  background-color: #63D1BB;
+}
+
+.main-categories__category--toys {
+  background-color: #46C1AE;
+}
