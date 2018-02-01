@@ -4,6 +4,9 @@
 @import "_index/_page-main", "_index/_week-product", "_index/_about-shop", "_index/_header", "_index/_reviews", "_index/_contacts";
 @import "_index/_footer", "_index/_social", "_index/_copyright";
 @import "_catalog/_catalog", "_catalog/prodaction-process";
+@import "_form/_page-form", "_form/_form-order";
+@import "_index/_modal";
+@import "_index/_size-buttons";
 
 body {
   background: #FFFFFF;
@@ -18,6 +21,13 @@ body {
     text-decoration: none;
   }
   blockquote {
+    margin: 0;
+  }
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  h2 {
     margin: 0;
   }
 }
@@ -37,3 +47,8 @@ body {
   border: 2px solid #444444;
 }
 
+.main-button--blue {
+  border-color: $accent;
+  background-color: $accent;
+  color: $white;
+}

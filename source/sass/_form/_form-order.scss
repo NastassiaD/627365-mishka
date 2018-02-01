@@ -1,0 +1,59 @@
+.form-order {
+  color: $black;
+  font-family: 'opensansbold', sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 17px;
+}
+
+.form-order__description {
+  color: #444444;
+  font-family: 'opensans', sans-serif;
+  font-weight: 200;
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.form-order__description--bottom {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.form-order__section {
+  padding-top: 27px;
+  margin-bottom: 34px;
+}
+
+.form-order__section--comment {
+  margin-bottom: 18px;
+}
+
+.form-order__section-header {
+  position: relative;
+  color: $accent;
+  text-transform: uppercase;
+  line-height: 16px;
+  &:before {
+    position: absolute;
+    content: "";
+    left: 65px;
+    top: 50%;
+    height: 1px;
+    width: 195px;
+    background-color: $accent;
+  }
+}
+
+.form-order__section--comment {
+  textarea {
+    display: block;
+    width: 88%;
+    padding: 18px;
+    padding-bottom: 38px;
+    margin: 0;
+    line-height: normal;
+    border: 2px solid $black;
+    outline: none;
+  }
+}
