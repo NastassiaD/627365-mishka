@@ -1,6 +1,6 @@
 @import "_vars";
 @import "_mixins";
-@import "_index/_header", "_index/_header-nav", "_index/_site-search", "_index/_basket-button", "_index/_main-categories";
+@import "_index/_header", "_index/_header-nav", "_index/_main-categories";
 @import "_index/_page-main", "_index/_week-product", "_index/_about-shop", "_index/_header", "_index/_reviews", "_index/_contacts";
 @import "_index/_footer", "_index/_social", "_index/_copyright";
 @import "_catalog/_catalog", "_catalog/prodaction-process";
@@ -51,4 +51,8 @@ body {
   border-color: $accent;
   background-color: $accent;
   color: $white;
+}
+
+.headline-hidden {
+  display: none;
 }

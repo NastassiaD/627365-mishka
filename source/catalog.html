@@ -9,7 +9,7 @@
 
     <header class="header header--index">
       <nav class="header-nav">
-        <button class="header-nav__toggle" type="button"><img src="img/icon-menu-open.svg"></button>
+        <button class="header-nav__toggle" type="button"><img src="img/icon-menu-open.svg" alt="Открыть меню"></button>
         <div class="header-nav__wrapper">
           <div class="header-nav__logo header-nav__logo--main-page">
             <picture>
@@ -31,13 +31,13 @@
             </li>
           </ul>
           <div class="header-nav__user-menu">
-            <div class="header-nav__search site-search">
-              <img class="basket-button__icon" src="img/icon-search.svg">
-              <a href="#"><span class="site-search__text">Поиск по сайту</span></a>
+            <div class="header-nav__search">
+              <img class="header-nav__search-icon" src="img/icon-search.svg" alt="Поиск">
+              <a href="#"><span class="header-nav__search-text">Поиск по сайту</span></a>
             </div>
-            <div class="header-nav__basket basket-button">
-              <img class="basket-button__icon" src="img/icon-cart.svg">
-              <a class="basket-button__link" href="#">Корзина: пока пуста</a>
+            <div class="header-nav__basket">
+              <img class="header-nav__basket-icon" src="img/icon-cart.svg" alt="Ваша корзина">
+              <a class="header-nav__basket-text" href="#">Корзина: пока пуста</a>
             </div>
           </div>
           <div class="header-nav__free-delivery">
@@ -50,50 +50,52 @@
 
     <main class="page-main">
       <section class="catalog">
+        <h2 class="headline-hidden">Каталог товаров</h2>
         <div class="catalog__wrapper">
           <div class="catalog__item">
-            <a href="#" class="catalog__photo-link"><img src="img/photo-hare-mobile@1x.jpg"></a>
+            <a href="#" class="catalog__photo-link"><img src="img/photo-hare-mobile@1x.jpg" alt="Зайчик-попрыгайчик"></a>
             <div class="catalog__item-info">
               <a href="#" class="catalog__item-name"><p>Зайчик-попрыгайчик</p></a>
               <p class="catalog__item-description">Рост 30 см, вес 200 г</p>
               <div class="catalog__item-buy">
                 <p class="catalog__price">1200 руб.</p>
-                <button class="button-cart"><img src="img/icon-cart.svg"></button>
+                <button class="button-cart"><img src="img/icon-cart.svg" alt="Добавить в корзину"></button>
               </div>
             </div>
           </div>
           <div class="catalog__item">
-            <a href="#" class="catalog__photo-link"><img src="img/photo-bowl-mobile@1x.jpg"></a>
+            <a href="#" class="catalog__photo-link"><img src="img/photo-bowl-mobile@1x.jpg" alt="Корзинка для белья"></a>
             <div class="catalog__item-info">
               <a href="#" class="catalog__item-name"><p>Корзинка для белья</p></a>
               <p class="catalog__item-description">Диаметр 15 см, высота 10 см</p>
               <div class="catalog__item-buy">
                 <p class="catalog__price">690 руб.</p>
-                <button class="button-cart"><img src="img/icon-cart.svg"></button>
+                <button class="button-cart"><img src="img/icon-cart.svg" alt="Добавить в корзину"></button>
               </div>
             </div>
           </div>
           <div class="catalog__item">
-            <a href="#" class="catalog__photo-link"><img src="img/photo-toys-mobile@1x.jpg"></a>
+            <a href="#" class="catalog__photo-link"><img src="img/photo-toys-mobile@1x.jpg" alt="Большая корзинка для игрушек"></a>
             <div class="catalog__item-info">
               <a href="#" class="catalog__item-name"><p>Большая корзинка для игрушек</p></a>
               <p class="catalog__item-description">Диаметр 30 см, высота 30 см</p>
               <div class="catalog__item-buy">
                 <p class="catalog__price">1500 руб.</p>
-                <button class="button-cart"><img src="img/icon-cart.svg"></button>
+                <button class="button-cart"><img src="img/icon-cart.svg" alt="Добавить в корзину"></button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="prodaction-process">
+        <h2 class="headline-hidden">Процесс производства</h2>
         <div class="prodaction-process__wrapper">
           <div class="prodaction-process__header">
-            <img class="prodaction-process__icon" src="img/icon-video.svg">
+            <img class="prodaction-process__icon" src="img/icon-video.svg" alt="Видео">
             <p class="prodaction-process__title">Процесс производства</p>
           </div>
           <div class="prodaction-process__video">
-            <img src="img/icon-play.svg" class="prodaction-process__video-play-button">
+            <img src="img/icon-play.svg" class="prodaction-process__video-play-button" alt="Воспроизвести">
             <video src="#" poster="img/video-mobile@1x.jpg"></video>
           </div>
           <div class="prodaction-process__info">
@@ -107,13 +109,13 @@
     <footer class="footer">
       <div class="footer__wrapper">
         <div class="footer__social social">
-          <a href="#" class="social__item social__item--insta"><img src="img/icon-insta.svg"></a>
-          <a href="#" class="social__item social__item--fb"><img src="img/icon-fb.svg"></a>
-          <a href="#" class="social__item social__item--tw"><img src="img/icon-twitter.svg"></a>
+          <a href="#" class="social__item social__item--insta"><img src="img/icon-insta.svg" alt="Инстаграм"></a>
+          <a href="#" class="social__item social__item--fb"><img src="img/icon-fb.svg" alt="Фейсбук"></a>
+          <a href="#" class="social__item social__item--tw"><img src="img/icon-twitter.svg" alt="Твиттер"></a>
         </div>
         <div class="footer__copyright copyright">
           <p class="copyright__text">Разработано</p>
-          <a href="https://htmlacademy.ru/intensive/adaptive" target="blank" class="copyright__link"><img src="img/htmlacademy.svg" width="27" height="34"></a>
+          <a href="https://htmlacademy.ru/intensive/adaptive" target="blank" class="copyright__link"><img src="img/htmlacademy.svg" width="27" height="34" alt="Логотип"></a>
         </div>
       </div>
     </footer>

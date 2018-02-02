@@ -7,27 +7,25 @@
   </head>
   <body>
 
-    <div class="modal-add-basket__wrapper">
-      <form action="/echo" method="post" class="modal-add-basket">
-        <div class="modal-add-basket__header"><h2>Добавить в корзину</h2></div>
-        <p class="modal-add-basket__paragraph">Выберете размер:</p>
-        <div class="size-buttons">
-          <label class="size-buttons__item">
-            <span class="size-buttons__name">s</span>
-            <input id="size" type="radio" name="small-size" value="S">
-          </label>
-          <label class="size-buttons__item">
-            <span class="size-buttons__name">m</span>
-            <input id="size" type="radio" name="medium-size" value="M">
-          </label>
-          <label class="size-buttons__item">
-            <span class="size-buttons__name">l</span>
-            <input id="size" type="radio" name="large-size" value="L">
-          </label>
-        </div>
-        <button class="main-button main-button--blue button-add" type="submit">Добавить</button>
-      </form>
-    </div>
+    <form action="/echo" method="post" class="modal-add-basket">
+      <div class="modal-add-basket__header"><h2>Добавить в корзину</h2></div>
+      <p class="modal-add-basket__paragraph">Выберете размер:</p>
+      <div class="size-buttons">
+        <label class="size-buttons__item">
+          <span class="size-buttons__name">s</span>
+          <input id="s-size" type="radio" name="small-size" value="S">
+        </label>
+        <label class="size-buttons__item">
+          <span class="size-buttons__name">m</span>
+          <input id="m-size" type="radio" name="medium-size" value="M">
+        </label>
+        <label class="size-buttons__item">
+          <span class="size-buttons__name">l</span>
+          <input id="l-size" type="radio" name="large-size" value="L">
+        </label>
+      </div>
+      <button class="main-button main-button--blue button-add" type="submit">Добавить</button>
+    </form>
 
   </body>
 </html>
