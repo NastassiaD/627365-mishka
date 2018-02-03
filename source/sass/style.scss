@@ -1,0 +1,58 @@
+@import "_vars";
+@import "_mixins";
+@import "_index/_header", "_index/_header-nav", "_index/_main-categories";
+@import "_index/_page-main", "_index/_week-product", "_index/_about-shop", "_index/_header", "_index/_reviews", "_index/_contacts";
+@import "_index/_footer", "_index/_social", "_index/_copyright";
+@import "_catalog/_catalog", "_catalog/prodaction-process";
+@import "_form/_page-form", "_form/_form-order";
+@import "_index/_modal";
+@import "_index/_size-buttons";
+
+body {
+  background: #FFFFFF;
+  font-family: 'opensans', sans-serif;
+  margin: 0;
+  ul {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  blockquote {
+    margin: 0;
+  }
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  h2 {
+    margin: 0;
+  }
+}
+
+.main-button {
+  text-transform: uppercase;
+  color: #444444;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 260px;
+  text-align: center;
+  font-family: 'opensansbold', sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 17px;
+  background-color: $white;
+  border: 2px solid #444444;
+}
+
+.main-button--blue {
+  border-color: $accent;
+  background-color: $accent;
+  color: $white;
+}
+
+.headline-hidden {
+  display: none;
+}

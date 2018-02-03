@@ -1,0 +1,35 @@
+.contacts {
+  color: #444444;
+  padding: 35px 30px 41px 30px;
+}
+
+.contacts__list {
+  margin-bottom: 40px;
+}
+
+.contacts__title {
+  margin-bottom: 45px;
+}
+
+.contacts__item {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.contacts__item-title {
+  margin-right: 34px;
+}
+
+.contacts__item--email {
+  margin-bottom: 32px;
+}
+
+.contacts__item-link {
+  color: #444444;
+  border-bottom: 1px solid $accent;
+  padding-bottom: 3px;
+}
+
+.contacts__map {
+  margin-bottom: 25px;
+}
