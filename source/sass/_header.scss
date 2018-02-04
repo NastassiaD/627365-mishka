@@ -1,9 +1,11 @@
 .header__tagline {
   color: $black;
-  text-align: center;
 }
 
 .header__tagline-text {
+  text-align: center;
+  width: 260px;
+  margin: 0px auto;
   font-family: 'opensansbold', sans-serif;
   font-weight: 600;
   line-height: 30px;
@@ -13,7 +15,12 @@
 .header__tagline--main-page {
   background-image: url(../img/hero-mobile@1x.jpg);
   background-repeat: no-repeat;
-  padding-top: 85px;
+  background-size: cover;
+  background-position: center;
+}
+
+.header__tagline-text--main-page {
+  padding-top: 75px;
 }
 
 .header__tagline--catalog {
@@ -29,5 +36,5 @@
 }
 
 .header__main-categories {
-  margin-top: 185px;
+  margin-top: 120px;
 }

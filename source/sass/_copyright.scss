@@ -1,0 +1,15 @@
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 182px;
+  margin: 15px auto 0;
+}
+
+.copyright__text {
+  color: $black;
+  font-family: 'opensansbold', sans-serif;
+  font-weight: 600;
+  line-height: 18px;
+  font-size: 19px;
+}

@@ -3,17 +3,16 @@
 }
 
 .week-product__wrapper {
-  padding: 35px 30px 41px 30px;
+  margin: 35px 10%;
+}
+
+.week-product__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .week-product__title {
-  h2 {
-    color: $black;
-    font-family: 'opensansbold', sans-serif;
-    font-weight: 600;
-    line-height: 30px;
-    font-size: 25px;
-  }
 }
 
 .week-product__product-of-week {
@@ -23,11 +22,22 @@
   font-weight: 600;
   line-height: 20px;
   font-size: 17px;
+  margin-top: 8px;
+  width: 100%;
 }
 
 .week-product__description {
+
+}
+
+.week-product__photo {
+
+}
+
+.week-product__description-text {
   font-size: 15px;
   line-height: 24px;
+  margin-top: 30px;
 }
 
 .week-product__options {

@@ -1,0 +1,217 @@
+@import "vars";
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .header__tagline-text {
+    font-size: 43px;
+    line-height: 50px;
+    width: 668px;
+  }
+
+  .title-style {
+    h2{
+      font-size: 43px;
+      line-height: 50px;
+    }
+  }
+
+  .wrapper-main {
+    width: 668px;
+  }
+
+  .header-nav__wrapper {
+    width: 668px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .header-nav__logo {
+    margin-left: 0;
+  }
+
+  .header-nav__toggle {
+    display: none;
+  }
+
+  .main-categories {
+    width: 668px;
+    margin: 370px auto 0;
+    flex-wrap: nowrap;
+  }
+
+  .main-categories__wrapper {
+    width: 100%;
+  }
+
+  .main-categories__category {
+    width: 50%;
+  }
+
+  .week-product {
+    margin-top: 150px;
+  }
+
+  .week-product__header {
+    width: 100%;
+    top: -100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .week-product__product-of-week {
+    margin-top: 0;
+    width: 20%;
+    text-align: center;
+  }
+
+  .week-product__description {
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .week-product__description-text {
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 0;
+  }
+
+  .week-product__order {
+    width: 100%;
+    position: inherit;
+    margin-top: 60px;
+  }
+
+  .week-product__photo {
+    margin-bottom: 0px;
+    width: 50%;
+  }
+
+  .about-shop__list {
+    margin-top: 50px;
+  }
+
+  .about-shop__item {
+    width: 50%;
+  }
+
+  .about-shop__item--eco {
+    order: 1;
+  }
+
+  .about-shop__item--style {
+    order: 3;
+  }
+
+  .about-shop__item--likes {
+    order: 5;
+  }
+
+  .about-shop__item--handmade {
+    order: 2;
+  }
+
+  .about-shop__item--support {
+    order: 4;
+  }
+
+  .about-shop__item--giftwrap {
+    order: 6;
+  }
+
+  .reviews {
+    background-image: url(../img/review@1x.jpg);
+    background-repeat: no-repeat;
+    .wrapper-main {
+      padding-top: 79px;
+    }
+  }
+
+  .reviews__list {
+    margin-top: 65px;
+  }
+
+  .reviews__controllers {
+    position: absolute;
+    right: 0;
+    bottom: 68px;
+    width: 175px;
+  }
+
+  .reviews__controllers-button {
+    border: none;
+    padding: 26px 0 26px 0px;
+  }
+
+  .main-button__leave-comment {
+    position: absolute;
+    top: 79px;
+    right: 0;
+    width: 175px;
+  }
+
+  .contacts__list {
+    display: flex;
+  }
+
+  .contacts__item {
+    width: 50%;
+  }
+
+  .contacts .main-button {
+    width: 230px;
+  }
+
+  .footer {
+    text-align: inherit;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .wrapper-main {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .footer__logo {
+    display: block;
+    width: 182px;
+  }
+
+  .social {
+    padding-bottom: 0;
+    border: none;
+  }
+
+  .copyright {
+    margin: 0;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/
+}
+

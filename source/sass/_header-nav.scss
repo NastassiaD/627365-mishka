@@ -4,6 +4,29 @@
   line-height: 24px;
   font-family: "opensansbold", sans-serif;
   font-size: 17px;
+  border-bottom: 1px solid #ECECEC;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav__wrapper {
+  height: 80px;
+  position: relative;
+  display: flex;
+  width: 260px;
+}
+
+.header-nav__logo {
+  margin: auto;
+}
+
+.header-nav__toggle {
+  position: absolute;
+  right: 0;
+  top: 30px;
+}
+
+.header-nav__list-wrapper--mobile {
 }
 
 .header-nav__list {

@@ -9,6 +9,9 @@
 
 .about-shop__list {
   margin-top: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .about-shop__item {
@@ -17,6 +20,7 @@
   line-height: 20px;
   font-size: 17px;
   margin-bottom: 34px;
+  width: 100%;
 }
 
 .about-shop__item--giftwrap {

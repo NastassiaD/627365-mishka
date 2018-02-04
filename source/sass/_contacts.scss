@@ -1,6 +1,9 @@
 .contacts {
   color: #444444;
-  padding: 35px 30px 41px 30px;
+  padding: 35px 0px 57px 0px;
+  .wrapper-main {
+    padding-bottom: 0;
+  }
 }
 
 .contacts__list {
@@ -24,6 +27,10 @@
   margin-bottom: 32px;
 }
 
+.contacts__item--address {
+  display: flex;
+}
+
 .contacts__item-link {
   color: #444444;
   border-bottom: 1px solid $accent;
@@ -32,4 +39,13 @@
 
 .contacts__map {
   margin-bottom: 25px;
+  img {
+    width: 100%;
+    height: 457px;
+  }
+}
+
+.contacts .main-button {
+  width: 260px;
+  margin: 0 auto;
 }
