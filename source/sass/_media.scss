@@ -16,21 +16,8 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
-  .header__tagline-text {
-    font-size: 43px;
-    line-height: 50px;
-    width: 668px;
-  }
-
-  .title-style {
-    h2{
-      font-size: 43px;
-      line-height: 50px;
-    }
-  }
-
-  .wrapper-main {
-    width: 668px;
+  .header-nav {
+    height: 90px;
   }
 
   .header-nav__wrapper {
@@ -42,10 +29,86 @@
 
   .header-nav__logo {
     margin-left: 0;
+    order: 1;
   }
 
   .header-nav__toggle {
     display: none;
+  }
+
+  .header-nav__list {
+    order: 3;
+    display: flex;
+    flex: 1 0 50%;
+  }
+
+  .header-nav__item {
+    padding: 25px 30px 0 0;
+  }
+
+  .header-nav__item--new {
+    display: none;
+  }
+
+  .header-nav__item--sale {
+    display: none;
+  }
+
+  .header-nav__user-menu {
+    order: 2;
+    display: flex;
+    height: 90px;
+  }
+
+  .header-nav__search {
+    font-size: 0;
+    width: 82px;
+    border-right: 1px solid #ececec;
+    border-left: 1px solid #ececec;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-nav__search-icon {
+    margin: 0 auto;
+  }
+
+  .header-nav__search-text {
+    display: none;
+  }
+
+  .header-nav__basket {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 263px;
+  }
+
+  .header-nav__basket-icon {
+    margin: 0 auto;
+  }
+
+  .header-nav__free-delivery {
+    order: 4;
+    padding-top: 25px;
+  }
+
+  .header__tagline-text {
+    font-size: 43px;
+    line-height: 50px;
+    width: 668px;
+    padding-top: 165px;
+  }
+
+  .title-style {
+    h2{
+      font-size: 43px;
+      line-height: 50px;
+    }
+  }
+
+  .wrapper-main {
+    width: 668px;
   }
 
   .main-categories {
@@ -211,7 +274,46 @@
 
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  /**/
+@media only screen and (min-width: 1150px) {
+  .header-nav__wrapper {
+    width: 1049px;
+  }
+
+  .header-nav__logo {
+    order: 2;
+    flex: 1 0 20%;
+  }
+
+  .header-nav__list {
+    order: 1;
+    flex: 1 0 37%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-nav__item {
+    box-sizing: border-box;
+    width: 50%;
+    text-align: left;
+    padding: 34px 0 30px;
+  }
+
+  .header-nav__item--catalog {
+    border-right: 1px solid #ececec;;
+  }
+
+  .header-nav__item--knitting {
+    padding-left: 28px;
+  }
+
+  .header-nav__item--new {
+    display: block;
+  }
+
+  .header-nav__item--sale {
+    display: block;
+    padding-left: 28px;
+  }
+
 }
 
