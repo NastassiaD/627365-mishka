@@ -11,6 +11,7 @@
 .week-product__title {
   h2{
     margin-bottom: 10px;
+    white-space: nowrap;
   }
 }
 
@@ -67,12 +68,4 @@
 }
 
 .week-product::after {
-  content: "";
-  position: absolute;
-  height: 39px;
-  width: 100%;
-  background-image: url(../img/image);
-  background-repeat: repeat-x;
-  background-position: -2px 12px;
-  background-size: 16px;
 }

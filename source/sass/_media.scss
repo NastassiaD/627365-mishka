@@ -276,26 +276,28 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1150px) {
   .header-nav__wrapper {
-    width: 1049px;
+    width: 1050px;
   }
 
   .header-nav__logo {
     order: 2;
-    flex: 1 0 20%;
+    flex: 0 0 20%;
+    text-align: center;
+    margin: 28px 0 0 0;
   }
 
   .header-nav__list {
     order: 1;
-    flex: 1 0 37%;
+    flex: 0 0 40%;
     display: flex;
     flex-wrap: wrap;
   }
 
   .header-nav__item {
     box-sizing: border-box;
-    width: 50%;
+    width: 45%;
     text-align: left;
-    padding: 34px 0 30px;
+    padding: 33px 0 33px;
   }
 
   .header-nav__item--catalog {
@@ -308,11 +310,106 @@
 
   .header-nav__item--new {
     display: block;
+    padding-top: 25px;
+    font-size: 15px;
   }
 
   .header-nav__item--sale {
     display: block;
+    padding-top: 25px;
     padding-left: 28px;
+    font-size: 15px;
+  }
+
+  .header-nav__user-menu {
+    order: 3;
+    flex: 0 0 40%;
+    justify-content: flex-end;
+  }
+
+  .header-nav__free-delivery {
+    position: absolute;
+    right: 0;
+    top: 90px;
+  }
+
+  .header__tagline-text {
+    font-size: 53px;
+  }
+
+  .main-categories {
+    width: 1050px;
+  }
+
+  .wrapper-main {
+    width: 1050px;
+  }
+
+  .week-product{
+    margin-top: 70px;
+  }
+
+  .week-product__description {
+    margin-top: 165px;
+    width: 30%;
+    margin-left: 15%;
+  }
+
+  .week-product__header {
+    width: 69%;
+    top: 50px;
+    left: 0;
+  }
+
+  .title-style {
+    h2 {
+      font-size: 53px;
+      line-height: 57px;
+    }
+  }
+
+  .week-product__title {
+  }
+
+  .week-product__product-of-week {
+    order: -1;
+    width: 15%;
+    margin: 0 auto;
+  }
+
+  .about-shop__title {
+    margin-left: 15%;
+  }
+
+  .about-shop__list {
+    margin-left: 15%;
+    width: 85%;
+  }
+
+  .about-shop__item {
+    width: 41%;
+  }
+
+  .reviews {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .reviews__title {
+    margin-left: 15%;
+  }
+
+  .reviews__list {
+    margin-left: 15%;
+  }
+
+  .contacts__title {
+    margin-left: 15%;
+  }
+
+  .contacts__list {
+    margin-left: 15%;
   }
 
 }
