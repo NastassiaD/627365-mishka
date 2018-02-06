@@ -23,6 +23,7 @@
   .header-nav__wrapper {
     width: 668px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
@@ -61,6 +62,7 @@
   }
 
   .header-nav__search {
+    padding: 0;
     font-size: 0;
     width: 82px;
     border-right: 1px solid #ececec;
@@ -78,6 +80,7 @@
   }
 
   .header-nav__basket {
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -89,6 +92,7 @@
   }
 
   .header-nav__free-delivery {
+    display: block;
     order: 4;
     padding-top: 25px;
   }
@@ -300,7 +304,6 @@
     order: 2;
     flex: 0 0 20%;
     text-align: center;
-    margin: 28px 0 0 0;
   }
 
   .header-nav__list {
@@ -342,6 +345,14 @@
     order: 3;
     flex: 0 0 40%;
     justify-content: flex-end;
+  }
+
+  .header-nav__search {
+    max-width: 100px
+  }
+
+  .header-nav__basket {
+    width: 263px
   }
 
   .header-nav__free-delivery {
