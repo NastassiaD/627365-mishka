@@ -168,7 +168,7 @@
   }
 
   .about-shop__list {
-    margin-top: 50px;
+    margin-top: 55px;
   }
 
   .about-shop__item {
@@ -230,6 +230,19 @@
     width: 175px;
   }
 
+  .contacts {
+    padding-bottom: 55px;
+  }
+
+  .contacts__title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contacts__icon {
+    display: block;
+  }
+
   .contacts__list {
     display: flex;
   }
@@ -238,7 +251,11 @@
     width: 50%;
   }
 
-  .contacts .main-button {
+  .contacts__map {
+    margin-bottom: 55px;
+  }
+
+  .contacts__button .main-button  {
     width: 230px;
   }
 
@@ -404,12 +421,45 @@
     margin-left: 15%;
   }
 
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+    margin: 0 auto;
+    padding-top: 60px;
+    position: relative;
+    .wrapper-main {
+      width: 30%;
+      margin: 0 5% 0 15%;
+    }
+  }
+
   .contacts__title {
-    margin-left: 15%;
+    margin-top: 60px;
+    margin-bottom: 45px;
+  }
+
+  .contacts__icon {
+    position: absolute;
+    left: -30%;
   }
 
   .contacts__list {
-    margin-left: 15%;
+    flex-wrap: wrap;
+  }
+
+  .contacts__item {
+    width: 100%;
+  }
+
+  .contacts__map {
+    width: 50%;
+  }
+
+  .contacts__button {
+    position: absolute;
+    bottom: 112px;
+    left: 15%;
   }
 
 }
