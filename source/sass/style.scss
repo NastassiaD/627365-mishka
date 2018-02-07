@@ -1,22 +1,20 @@
-@import "_vars";
-@import "_mixins";
-@import "_header";
-@import "_header-nav";
-@import "_main-categories";
-@import "_page-main";
-@import "_week-product";
-@import "_about-shop";
-@import "_header";
-@import "_reviews";
-@import "_contacts";
-@import "_footer";
-@import "_social";
-@import "_copyright";
-@import "_catalog";
-@import "_prodaction-process";
-@import "_form-order";
-@import "_modal";
-@import "_size-buttons";
+@import "_vars", "_mixins";
+@import "_global/_header";
+@import "_global/_page-main";
+@import "_blocks/_header-nav";
+@import "_blocks/_main-categories";
+@import "_blocks/_week-product";
+@import "_blocks/_modal";
+@import "_blocks/_about-shop";
+@import "_blocks/_reviews";
+@import "_blocks/_contacts";
+@import "_blocks/_footer";
+@import "_blocks/_social";
+@import "_blocks/_copyright";
+@import "_blocks/_catalog";
+@import "_blocks/_prodaction-process";
+@import "_blocks/_form-order";
+@import "_blocks/_size-buttons";
 
 @font-face {
   font-weight: normal;
@@ -43,6 +41,7 @@ body {
   }
   a {
     text-decoration: none;
+    display: block;
   }
   blockquote {
     margin: 0;

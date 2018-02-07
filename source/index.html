@@ -11,11 +11,11 @@
     <header class="header header--index">
       <nav class="header-nav">
         <div class="header-nav__wrapper">
-          <div class="header-nav__logo header-nav__logo--main-page">
+          <a class="header-nav__logo header-nav__logo--main-page">
             <picture>
               <img src="img/logo-mobile.svg" alt="Логотип Мишка">
             </picture>
-          </div>
+          </a>
           <button class="header-nav__toggle" type="button"><img src="img/icon-menu-open.svg" alt="Открыть меню"></button>
           <ul class="header-nav__list header-nav__list--collapsed">
             <li class="header-nav__item header-nav__item--catalog">
@@ -49,8 +49,14 @@
       <section class="header__tagline header__tagline--main-page">
         <h1 class="header__tagline-text header__tagline-text--main-page">Милые штуки ручной работы&nbsp;для&nbsp;дома</h1>
         <div class="header__main-categories main-categories">
-          <a class="main-categories__category main-categories__category--interior" href="#"><div class="main-categories__wrapper"><p>Предметы<br>интерьера</p><img src="img/icon-interior.svg" alt="Лампа"></div></a>
-          <a class="main-categories__category main-categories__category--toys" href="#"><div class="main-categories__wrapper"><p>Детские<br>игрушки</p><img src="img/icon-toy.svg" alt="Игрушка"></div></a>
+          <a class="main-categories__category main-categories__category--interior" href="#">
+            <p>Предметы<br>интерьера</p>
+            <img src="img/icon-interior.svg" alt="Лампа">
+          </a>
+          <a class="main-categories__category main-categories__category--toys" href="#">
+            <p>Детские<br>игрушки</p>
+            <img src="img/icon-toy.svg" alt="Игрушка">
+          </a>
         </div>
       </section>
     </header>
@@ -126,7 +132,7 @@
             <button class="reviews__controllers-button reviews__controllers-button--prev" type="button"></button>
             <button class="reviews__controllers-button reviews__controllers-button--next" type="button"></button>
           </div>
-          <a href="#"><div class="main-button main-button__leave-comment">Написать</div></a>
+          <a href="#" class="main-button main-button__leave-comment">Написать</a>
         </div>
       </section>
       <section class="contacts">
