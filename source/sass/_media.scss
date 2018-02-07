@@ -338,6 +338,62 @@
     padding-bottom: 5px;
   }
 
+  /* form-order */
+
+  .form-order__section-title:before {
+    display: none;
+  }
+
+  .form-order__wrapper {
+    width: 668px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    padding: 50px 0 28px;
+  }
+
+  .form-order__description--top {
+    width: 668px;
+    margin: 80px auto 5px;
+  }
+
+  .form-order__section-title {
+    width: 35%;
+  }
+
+  .form-order__section--color {
+    background-color: $grey;
+  }
+
+  .form-order__section--color {
+    .form-order__label {
+      width: 50%;
+    }
+  }
+
+  .form-order__section--phone {
+    background-color: $grey;
+    margin: 0;
+  }
+
+  .form-order__section--mail {
+    background-color: $grey;
+  }
+
+  .form-order__footer {
+    width: 668px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form-order__description--bottom {
+    order: 2;
+  }
+
+  .button-send-order {
+    width: 230px;
+  }
+
 }
 
 /* Medium Devices, Desktops */
@@ -583,6 +639,28 @@
   .prodaction-process__info {
     padding-left: 20%;
     width: 65%;
+  }
+
+  /* form-order */
+
+  .form-order__wrapper {
+    width: 1050px;
+  }
+
+  .form-order__section-title {
+    width: 21%;
+    left: 6%;
+  }
+
+  .form-order__section--color {
+    .form-order__label{
+      width: 30%;
+    }
+  }
+
+  .form-order__footer {
+    width: 1050px;
+    padding-left: 27%;
   }
 }
 
