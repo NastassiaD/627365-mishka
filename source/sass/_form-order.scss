@@ -23,9 +23,15 @@
 .form-order__section {
   padding-top: 27px;
   margin-bottom: 34px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .form-order__section-header {
+  width: 100%;
+}
+
+.form-order__section-text {
   position: relative;
   color: $accent;
   text-transform: uppercase;
@@ -39,6 +45,11 @@
     width: 195px;
     background-color: $accent;
   }
+}
+
+.form-order__label {
+  width: 100%;
+  display: flex;
 }
 
 .form-order__section--comment {

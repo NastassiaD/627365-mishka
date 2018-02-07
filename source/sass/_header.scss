@@ -23,13 +23,17 @@
   padding-top: 75px;
 }
 
+.header__tagline-text--form {
+  white-space: nowrap;
+}
+
 .header__tagline--catalog {
   background-color: $grey;
   padding-top: 75px;
   padding-bottom: 80px;
 }
 
-.header__tagline--knitting {
+.header__tagline--form {
   background-color: $grey;
   padding-top: 75px;
   padding-bottom: 80px;
