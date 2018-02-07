@@ -1,10 +1,28 @@
 .prodaction-process {
-  padding: 0px 30px 58px 30px;
 }
 
 .prodaction-process__wrapper {
   border: 1px solid #ececec;
-  padding: 0 24px 33px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding-top: 108px;
+}
+
+.prodaction-process__icon {
+  margin-right: 30px;
+}
+
+.prodaction-process__header {
+  width: 100%;
+  padding: 30px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 126px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
@@ -14,12 +32,42 @@
   font-weight: 600;
   font-size: 17px;
   line-height: 24px;
-  padding: 29px 0px;
+}
+
+.prodaction-process__video {
+  width: 100%;
+  position: relative;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 101px;
+    height: 77px;
+    left: 50%;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: -35px;
+    background-image: url(../img/icon-play.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.prodaction-process__content {
+  width: 100%;
+  padding: 34px 26px;
 }
 
 .prodaction-process__text {
-  padding: 32px 0px;
   color: #444444;
   font-size: 13px;
   line-height: 24px;
+  margin: 0;
+}
+
+.prodaction-process button {
+  margin-top: 30px;
 }
