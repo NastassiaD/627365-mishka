@@ -50,6 +50,53 @@
   background-position: center;
 }
 
-.reviews::after {
+/*
 
+.reviews2 {
+  @media screen and (min-width: 768px) {
+    background-image: url(../img/review@1x.jpg);
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1150px) {
+    width: 1050px;
+    margin: 0 auto;
+  }
+  &__inner2 {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+  &__title2 {
+    @media screen and (min-width: 768px) {
+      order: -2;
+      max-width: 500px;
+    }
+    @media screen and (min-width: 1150px) {
+      margin-left: 15%;
+    }
+  }
+  &__list2 {
+    @media screen and (min-width: 768px) {
+      flex-basis: 100%;
+    }
+    @media screen and (min-width: 1150px) {
+      margin-left: 15%;
+    }
+  }
+  &__write-us {
+    @media screen and (min-width: 768px) {
+      order: -1;
+    }
+  }
+  &__author2 {
+    @media screen and (min-width: 1150px) {
+      margin-left: 15%;
+    }
+  }
 }
+ */

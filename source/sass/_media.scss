@@ -105,6 +105,8 @@
   }
 
   .title-style {
+    font-size: 43px;
+    line-height: 50px;
     h2{
       font-size: 43px;
       line-height: 50px;
@@ -211,8 +213,21 @@
     }
   }
 
+  .reviews__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .reviews__title {
+    order: -2;
+    max-width: 500px;
+  }
+
   .reviews__list {
     margin-top: 65px;
+    flex-basis: 100%;
   }
 
   .reviews__controllers {
@@ -227,11 +242,9 @@
     padding: 26px 0 26px 0px;
   }
 
-  .main-button__leave-comment {
-    position: absolute;
-    top: 79px;
-    right: 0;
+  .reviews__write-us {
     width: 175px;
+    order: -1;
   }
 
   .contacts {
@@ -498,6 +511,8 @@
   }
 
   .title-style {
+    font-size: 53px;
+    line-height: 57px;
     h2 {
       font-size: 53px;
       line-height: 57px;
@@ -537,6 +552,10 @@
   }
 
   .reviews__list {
+    margin-left: 15%;
+  }
+
+  .reviews__author {
     margin-left: 15%;
   }
 
