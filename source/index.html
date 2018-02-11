@@ -8,42 +8,36 @@
   </head>
   <body>
 
-    <header class="header header--index">
-      <nav class="header-nav">
-        <div class="header-nav__wrapper">
-          <a class="header-nav__logo header-nav__logo--main-page">
-            <picture>
-              <img src="img/logo-mobile.svg" alt="Логотип Мишка">
-            </picture>
-          </a>
-          <button class="header-nav__toggle" type="button"><img src="img/icon-menu-open.svg" alt="Открыть меню"></button>
-          <ul class="header-nav__list header-nav__list--collapsed">
-            <li class="header-nav__item header-nav__item--catalog">
+    <header class="header">
+      <nav class="navigation">
+        <div class="navigation__inner">
+          <button class="navigation__toggle" type="button">X</button>
+          <ul class="navigation__list">
+            <li class="navigation__item navigation__item--catalog">
               <a href="catalog.html">Каталог товаров</a>
             </li>
-            <li class="header-nav__item header-nav__item--knitting">
+            <li class="navigation__item  navigation__item--knitting">
               <a href="form.html">Вязание на заказ</a>
             </li>
-            <li class="header-nav__item header-nav__item--new">
+            <li class="navigation__item navigation__item--logo">
+              <a href="index.html"><img src="img/logo-mobile.svg" alt="Логотип Мишка"></a>
+            </li>
+            <li class="navigation__item navigation__item--search">
+              <a href="#">Поиск</a>
+            </li>
+            <li class="navigation__item navigation__item--basket">
+              <a href="#">Корзина: пока пуста</a>
+            </li>
+            <li class="navigation__item navigation__item--new navigation__item--hidden">
               <a href="catalog.html">Новые поступления</a>
             </li>
-            <li class="header-nav__item header-nav__item--sale">
+            <li class="navigation__item navigation__item--sale navigation__item--hidden">
               <a href="catalog.html">Распродажа</a>
             </li>
+            <li class="navigation__item navigation__item--delivery navigation__item--hidden">
+              <span>Бесплатная доставка по России</span>
+            </li>
           </ul>
-          <div class="header-nav__user-menu header-nav__user-menu--collapsed">
-            <div class="header-nav__item header-nav__search">
-              <img class="header-nav__search-icon" src="img/icon-search.svg" alt="Поиск">
-              <a href="#"><span class="header-nav__search-text">Поиск по сайту</span></a>
-            </div>
-            <div class="header-nav__item header-nav__basket">
-              <img class="header-nav__basket-icon" src="img/icon-cart.svg" alt="Ваша корзина">
-              <a class="header-nav__basket-text" href="#">Корзина: пока пуста</a>
-            </div>
-          </div>
-          <div class="header-nav__free-delivery">
-            <span>Бесплатная доставка по России</span>
-          </div>
         </div>
       </nav>
       <section class="header__tagline header__tagline--main-page">
@@ -173,6 +167,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 </html>
